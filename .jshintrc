@@ -1,0 +1,10 @@
+{
+    "node"          : true,
+    "strict"        : true,
+    "curly"         : true,
+    "eqeqeq"        : true,
+    "undef"         : true,
+    "newcap"        : true,
+    "noempty"       : true,
+    "indent"        : 2
+}
