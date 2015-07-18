@@ -39,10 +39,6 @@ app.post('/', function (req, res) {
   var id = Date.now();
   var path = './data/notes/' + id + '.json';
   var data = req.body;
-  console.log('I got this:');
-  console.log(data);
-  data = JSON.stringify(data);
-  console.log('OK now it\'s this: ' + data);
   fs.writeFile(path, data, function(err) {
     if (err) {
       console.log('POST: ' + err + '.');
